@@ -28,9 +28,9 @@ public class EventListActivity extends AppCompatActivity implements WorkshopFrag
         Bundle bundle = getIntent().getExtras();
         dept = bundle.getString("dept");
         tabLayout = findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Workshop"));
         tabLayout.addTab(tabLayout.newTab().setText("Formals"));
-        tabLayout.addTab(tabLayout.newTab().setText("inFormals"));
+        tabLayout.addTab(tabLayout.newTab().setText("informals"));
+        tabLayout.addTab(tabLayout.newTab().setText("Workshops"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabTextColors(Color.rgb(100,220,220),Color.WHITE);
 

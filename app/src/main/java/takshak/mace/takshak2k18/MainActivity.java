@@ -183,6 +183,7 @@ public class MainActivity extends AppCompatActivity
         }
          else if (id == R.id.about) {
             //about
+            startActivity(new Intent(MainActivity.this,About.class));
 
         } else if (id == R.id.locate) {
             //locate in maps

@@ -66,9 +66,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".editor"
-            android:label="@string/title_activity_editor"></activity>
-
+            android:label="@string/title_activity_editor" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"></activity>
     </application>
-
 
 </manifest>

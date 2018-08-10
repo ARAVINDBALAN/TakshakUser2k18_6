@@ -14,11 +14,11 @@ public class MyPagerAdapter extends FragmentStatePagerAdapter {
         switch (position)
         {
             case 0:
-                return new WorkshopFragment();
-            case 1:
                 return new EventFragment();
-            case 2:
+            case 1:
                 return new InformalFragment();
+            case 2:
+                return new WorkshopFragment();
             default:
                 return null;
         }
